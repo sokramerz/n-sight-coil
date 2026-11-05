@@ -1,0 +1,126 @@
+
+<!--
+    Description:
+
+    This DTD defines the health topics in MedlinePlus.  
+    ====================================================================================
+     
+    A sample XML data structure:
+
+<health-topics total="1833" date-generated="04/24/2012 04:35:44">
+<health-topic meta-desc="Stomach aches can be painful. Find out what might be the cause of your abdominal pain. " title="Abdominal Pain" url="https://www.nlm.nih.gov/medlineplus/abdominalpain.html" id="3061" language="English" date-created="01/07/2003">
+<also-called>Bellyache</also-called>
+<full-summary>&lt;p&gt;Your abdomen extends from below your chest to your groin. Some people call it the stomach, but your abdomen contains many other important organs. Pain in the abdomen can come from any one of them. The pain may start somewhere else, such as your chest. Severe pain doesn't always mean a serious problem. Nor does mild pain mean a problem is not serious. &lt;/p&gt;
+
+&lt;p&gt;Call your healthcare provider if mild pain lasts a week or more or if you have pain with other symptoms. Get medical help immediately if&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;      You have abdominal pain that is sudden and sharp&lt;/li&gt;
+&lt;li&gt;You also have pain in your chest, neck or shoulder &lt;/li&gt;
+&lt;li&gt;      You're vomiting blood or have blood in your stool &lt;/li&gt;
+&lt;li&gt;      Your abdomen is stiff, hard and tender to touch &lt;/li&gt;
+&lt;li&gt;You can't move your bowels, especially if you're also vomiting &lt;/li&gt;
+&lt;/ul&gt;
+</full-summary>
+<group url="https://www.nlm.nih.gov/medlineplus/digestivesystem.html" id="2">Digestive System</group>
+<group url="https://www.nlm.nih.gov/medlineplus/symptoms.html" id="31">Symptoms</group>
+<language-mapped-topic url="https://www.nlm.nih.gov/medlineplus/spanish/abdominalpain.html" id="3062" language="Spanish">Dolor abdominal</language-mapped-topic>
+<mesh-heading>
+<descriptor id="D015746">Abdominal Pain</descriptor>
+</mesh-heading>
+<other-language vernacular-name="español" url="https://www.nlm.nih.gov/medlineplus/spanish/abdominalpain.html">Spanish</other-language>
+<related-topic url="https://www.nlm.nih.gov/medlineplus/pain.html" id="351">Pain</related-topic>
+<related-topic url="https://www.nlm.nih.gov/medlineplus/pelvicpain.html" id="4486">Pelvic Pain</related-topic>
+<see-reference>Bellyache</see-reference>
+<see-reference>Pain, Abdominal</see-reference>
+<see-reference>Stomach Ache</see-reference>
+<site title="Abdominal CT scan" url="https://www.nlm.nih.gov/medlineplus/ency/article/003789.htm" language-mapped-url="https://www.nlm.nih.gov/medlineplus/spanish/ency/article/003789.htm">
+<information-category>Encyclopedia</information-category>
+<information-category>Patient Handouts</information-category>
+</site>
+<site title="Abdominal mass" url="https://www.nlm.nih.gov/medlineplus/ency/article/003274.htm" language-mapped-url="https://www.nlm.nih.gov/medlineplus/spanish/ency/article/003274.htm">
+<information-category>Encyclopedia</information-category>
+</site>
+<site title="Abdominal Migraine" url="http://www.headaches.org/education/Headache_Topic_Sheets/Abdominal_Migraine">
+<information-category>Specific Conditions</information-category>
+<organization>National Headache Foundation</organization>
+</site>
+<site title="Your Colicky Baby" url="http://kidshealth.org/parent/growth/growing/colic.html" language-mapped-url="http://kidshealth.org/parent/en_espanol/padres/colic_esp.html">
+<information-category>Children</information-category>
+<organization>Nemours Foundation</organization>
+</site>
+<site title="Hypnosis May Help Kids' Stomach Woes Long-Term" url="https://www.nlm.nih.gov/medlineplus/news/fullstory_122279.html">
+<information-category>Latest News</information-category>
+<organization>Reuters Health</organization>
+</site>
+</health-topic>
+</health-topics>
+-->
+
+<!ELEMENT health-topics (health-topic)+>
+<!ATTLIST health-topics
+  date-generated CDATA #REQUIRED
+  total CDATA #REQUIRED>
+
+<!ELEMENT health-topic (also-called*,full-summary,group+,language-mapped-topic?,
+                       mesh-heading*,other-language*,primary-institute?,
+                       related-topic*,see-reference*,site+)>
+<!ATTLIST health-topic
+  id CDATA #REQUIRED
+  date-created CDATA #REQUIRED
+  language (English | Spanish) #REQUIRED
+  title CDATA #REQUIRED
+  url CDATA #REQUIRED
+  meta-desc CDATA #REQUIRED>
+
+<!ELEMENT full-summary (#PCDATA)>
+
+<!ELEMENT group (#PCDATA)>
+<!ATTLIST group
+  id CDATA #REQUIRED
+  url CDATA #REQUIRED>
+
+<!ELEMENT language-mapped-topic (#PCDATA)>
+<!ATTLIST language-mapped-topic
+  id CDATA #REQUIRED
+  language (English | Spanish) #REQUIRED
+  url CDATA #REQUIRED>
+
+<!ELEMENT mesh-heading (descriptor, qualifier*)>
+
+<!ELEMENT other-language (#PCDATA)>
+<!ATTLIST other-language
+  vernacular-name CDATA #REQUIRED
+  url CDATA #REQUIRED>
+
+<!ELEMENT primary-institute (#PCDATA)>
+<!ATTLIST primary-institute
+  url CDATA #REQUIRED>
+
+<!ELEMENT related-topic (#PCDATA)>
+<!ATTLIST related-topic
+  id CDATA #REQUIRED
+  url CDATA #REQUIRED>
+
+<!ELEMENT see-reference (#PCDATA)>
+
+<!ELEMENT site (information-category+,organization*,standard-description*)>
+<!ATTLIST site
+  language-mapped-url CDATA #IMPLIED
+  title CDATA #REQUIRED
+  url CDATA #REQUIRED>
+
+<!ELEMENT also-called (#PCDATA)>
+
+<!ELEMENT descriptor (#PCDATA)>
+<!ATTLIST descriptor
+  id CDATA #REQUIRED>
+
+<!ELEMENT qualifier (#PCDATA)>
+<!ATTLIST qualifier
+  id CDATA #REQUIRED>
+
+<!ELEMENT information-category (#PCDATA)>
+
+<!ELEMENT organization (#PCDATA)>
+
+<!ELEMENT standard-description (#PCDATA)>

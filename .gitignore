@@ -1,0 +1,43 @@
+# --- clinical data must never be committed ---
+*.csv
+*.csv.gz
+*.parquet
+*.db
+*.duckdb
+*.jsonl
+data/raw/**
+data/interim/**
+!data/**/.gitkeep
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+mlruns/
+
+# node
+node_modules/
+dist/
+.vite/
+
+# env / secrets
+.env
+.env.*
+*.key
+
+# os
+.DS_Store
+Thumbs.db
+
+# clinical data exports
+*.json
+!ui/**/*.json
+!**/openapi*.json
+
+#exclusions for general health info
+!src/nsight/FAQ/faq_data/interactions.json
+!src/nsight/FAQ/faq_data/side_effects.json
+!src/nsight/FAQ/faq_data/summaries.json

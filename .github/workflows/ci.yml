@@ -1,0 +1,26 @@
+name: ci
+on:
+  push: { branches: [main, dev] }
+  pull_request: { branches: [main, dev] }
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Run tests (includes the answer-key leak test)
+        run: pytest -v
+
+  no-data-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail if clinical data was committed
+        run: |
+          if git ls-files | grep -Ei '\.(csv|parquet|duckdb|jsonl)(\.gz)?$'; then
+            echo "Data file committed. Remove it and rewrite history."
+            exit 1
+          fi

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE health-topic-groups PUBLIC "-//NLM//DTD health-topic-groups //EN" "https://medlineplus.gov/xml/mplus_groups.dtd">
+<health-topic-groups total="88" total-english="44" total-spanish="44" date-generated="09/26/2026 02:30:41">
+<group language="English" id="1" url="https://medlineplus.gov/cancers.html">Cancers</group>
+<group language="Spanish" id="1" url="https://medlineplus.gov/spanish/cancers.html">Cánceres</group>
+<group language="English" id="2" url="https://medlineplus.gov/digestivesystem.html">Digestive System</group>
+<group language="Spanish" id="2" url="https://medlineplus.gov/spanish/digestivesystem.html">Sistema digestivo</group>
+<group language="English" id="3" url="https://medlineplus.gov/childrenandteenagers.html">Children and Teenagers</group>
+<group language="Spanish" id="3" url="https://medlineplus.gov/spanish/childrenandteenagers.html">Niños y adolescentes</group>
+<group language="English" id="4" url="https://medlineplus.gov/women.html">Women</group>
+<group language="Spanish" id="4" url="https://medlineplus.gov/spanish/women.html">Mujeres</group>
+<group language="English" id="5" url="https://medlineplus.gov/mentalhealthandbehavior.html">Mental Health and Behavior</group>
+<group language="Spanish" id="5" url="https://medlineplus.gov/spanish/mentalhealthandbehavior.html">Salud mental y conducta</group>
+<group language="English" id="6" url="https://medlineplus.gov/olderadults.html">Older Adults</group>
+<group language="Spanish" id="6" url="https://medlineplus.gov/spanish/olderadults.html">Personas mayores</group>
+<group language="English" id="7" url="https://medlineplus.gov/bloodheartandcirculation.html">Blood, Heart and Circulation</group>
+<group language="Spanish" id="7" url="https://medlineplus.gov/spanish/bloodheartandcirculation.html">Sangre, corazón y circulación</group>
+<group language="English" id="8" url="https://medlineplus.gov/substanceuseanddisorders.html">Substance Use and Disorders</group>
+<group language="Spanish" id="8" url="https://medlineplus.gov/spanish/substanceuseanddisorders.html">Consumo de sustancias y sus trastornos</group>
+<group language="English" id="9" url="https://medlineplus.gov/eyesandvision.html">Eyes and Vision</group>
+<group language="Spanish" id="9" url="https://medlineplus.gov/spanish/eyesandvision.html">Ojos y visión</group>
+<group language="English" id="10" url="https://medlineplus.gov/bonesjointsandmuscles.html">Bones, Joints and Muscles</group>
+<group language="Spanish" id="10" url="https://medlineplus.gov/spanish/bonesjointsandmuscles.html">Huesos, articulaciones y músculos</group>
+<group language="English" id="11" url="https://medlineplus.gov/kidneysandurinarysystem.html">Kidneys and Urinary System</group>
+<group language="Spanish" id="11" url="https://medlineplus.gov/spanish/kidneysandurinarysystem.html">Riñones y sistema urinario</group>
+<group language="English" id="12" url="https://medlineplus.gov/infections.html">Infections</group>
+<group language="Spanish" id="12" url="https://medlineplus.gov/spanish/infections.html">Infecciones</group>
+<group language="English" id="14" url="https://medlineplus.gov/brainandnerves.html">Brain and Nerves</group>
+<group language="Spanish" id="14" url="https://medlineplus.gov/spanish/brainandnerves.html">Cerebro y nervios</group>
+<group language="English" id="15" url="https://medlineplus.gov/lungsandbreathing.html">Lungs and Breathing</group>
+<group language="Spanish" id="15" url="https://medlineplus.gov/spanish/lungsandbreathing.html">Pulmón y vías respiratorias</group>
+<group language="English" id="16" url="https://medlineplus.gov/earnoseandthroat.html">Ear, Nose and Throat</group>
+<group language="Spanish" id="16" url="https://medlineplus.gov/spanish/earnoseandthroat.html">Oído, nariz y garganta</group>
+<group language="English" id="17" url="https://medlineplus.gov/mouthandteeth.html">Mouth and Teeth</group>
+<group language="Spanish" id="17" url="https://medlineplus.gov/spanish/mouthandteeth.html">Salud oral y dental</group>
+<group language="English" id="18" url="https://medlineplus.gov/skinhairandnails.html">Skin, Hair and Nails</group>
+<group language="Spanish" id="18" url="https://medlineplus.gov/spanish/skinhairandnails.html">Piel, cabello y uñas</group>
+<group language="English" id="19" url="https://medlineplus.gov/injuriesandwounds.html">Injuries and Wounds</group>
+<group language="Spanish" id="19" url="https://medlineplus.gov/spanish/injuriesandwounds.html">Lesiones y heridas</group>
+<group language="English" id="20" url="https://medlineplus.gov/pregnancyandreproduction.html">Pregnancy and Reproduction</group>
+<group language="Spanish" id="20" url="https://medlineplus.gov/spanish/pregnancyandreproduction.html">Embarazo y reproducción</group>
+<group language="English" id="21" url="https://medlineplus.gov/geneticsbirthdefects.html">Genetics/Birth Defects</group>
+<group language="Spanish" id="21" url="https://medlineplus.gov/spanish/geneticsbirthdefects.html">Genética y defectos congénitos</group>
+<group language="English" id="22" url="https://medlineplus.gov/immunesystem.html">Immune System</group>
+<group language="Spanish" id="22" url="https://medlineplus.gov/spanish/immunesystem.html">Sistema inmunitario</group>
+<group language="English" id="23" url="https://medlineplus.gov/endocrinesystem.html">Endocrine System</group>
+<group language="Spanish" id="23" url="https://medlineplus.gov/spanish/endocrinesystem.html">Sistema endocrino</group>
+<group language="English" id="24" url="https://medlineplus.gov/men.html">Men</group>
+<group language="Spanish" id="24" url="https://medlineplus.gov/spanish/men.html">Hombres</group>
+<group language="English" id="25" url="https://medlineplus.gov/diagnostictests.html">Diagnostic Tests</group>
+<group language="Spanish" id="25" url="https://medlineplus.gov/spanish/diagnostictests.html">Pruebas de diagnóstico</group>
+<group language="English" id="26" url="https://medlineplus.gov/foodandnutrition.html">Food and Nutrition</group>
+<group language="Spanish" id="26" url="https://medlineplus.gov/spanish/foodandnutrition.html">Alimentos y nutrición</group>
+<group language="English" id="27" url="https://medlineplus.gov/wellnessandlifestyle.html">Wellness and Lifestyle</group>
+<group language="Spanish" id="27" url="https://medlineplus.gov/spanish/wellnessandlifestyle.html">Bienestar y estilo de vida</group>
+<group language="English" id="28" url="https://medlineplus.gov/poisoningtoxicologyenvironmentalhealth.html">Poisoning, Toxicology, Environmental Health</group>
+<group language="Spanish" id="28" url="https://medlineplus.gov/spanish/poisoningtoxicologyenvironmentalhealth.html">Envenenamientos, toxicología y salud ambiental</group>
+<group language="English" id="29" url="https://medlineplus.gov/safetyissues.html">Safety Issues</group>
+<group language="Spanish" id="29" url="https://medlineplus.gov/spanish/safetyissues.html">Asuntos de seguridad</group>
+<group language="English" id="30" url="https://medlineplus.gov/socialfamilyissues.html">Social/Family Issues</group>
+<group language="Spanish" id="30" url="https://medlineplus.gov/spanish/socialfamilyissues.html">Asuntos sociales y familiares</group>
+<group language="English" id="31" url="https://medlineplus.gov/symptoms.html">Symptoms</group>
+<group language="Spanish" id="31" url="https://medlineplus.gov/spanish/symptoms.html">Síntomas</group>
+<group language="English" id="32" url="https://medlineplus.gov/healthsystem.html">Health System</group>
+<group language="Spanish" id="32" url="https://medlineplus.gov/spanish/healthsystem.html">Sistemas de salud</group>
+<group language="English" id="33" url="https://medlineplus.gov/populationgroups.html">Population Groups</group>
+<group language="Spanish" id="33" url="https://medlineplus.gov/spanish/populationgroups.html">Grupos especiales</group>
+<group language="English" id="34" url="https://medlineplus.gov/sexualhealthissues.html">Sexual Health Issues</group>
+<group language="Spanish" id="34" url="https://medlineplus.gov/spanish/sexualhealthissues.html">Asuntos de salud sexual</group>
+<group language="English" id="35" url="https://medlineplus.gov/complementaryandalternativetherapies.html">Complementary and Alternative Therapies</group>
+<group language="Spanish" id="35" url="https://medlineplus.gov/spanish/complementaryandalternativetherapies.html">Terapias complementarias y alternativas</group>
+<group language="English" id="36" url="https://medlineplus.gov/drugtherapy.html">Drug Therapy</group>
+<group language="Spanish" id="36" url="https://medlineplus.gov/spanish/drugtherapy.html">Tratamiento con medicamentos</group>
+<group language="English" id="37" url="https://medlineplus.gov/surgeryandrehabilitation.html">Surgery and Rehabilitation</group>
+<group language="Spanish" id="37" url="https://medlineplus.gov/spanish/surgeryandrehabilitation.html">Cirugía y rehabilitación</group>
+<group language="English" id="38" url="https://medlineplus.gov/transplantationanddonation.html">Transplantation and Donation</group>
+<group language="Spanish" id="38" url="https://medlineplus.gov/spanish/transplantationanddonation.html">Transplantes y donaciones</group>
+<group language="English" id="39" url="https://medlineplus.gov/fitnessandexercise.html">Fitness and Exercise</group>
+<group language="Spanish" id="39" url="https://medlineplus.gov/spanish/fitnessandexercise.html">Aptitud física y ejercicio</group>
+<group language="English" id="40" url="https://medlineplus.gov/metabolicproblems.html">Metabolic Problems</group>
+<group language="Spanish" id="40" url="https://medlineplus.gov/spanish/metabolicproblems.html">Problemas del metabolismo</group>
+<group language="English" id="41" url="https://medlineplus.gov/personalhealthissues.html">Personal Health Issues</group>
+<group language="Spanish" id="41" url="https://medlineplus.gov/spanish/personalhealthissues.html">Asuntos personales de salud</group>
+<group language="English" id="42" url="https://medlineplus.gov/femalereproductivesystem.html">Female Reproductive System</group>
+<group language="Spanish" id="42" url="https://medlineplus.gov/spanish/femalereproductivesystem.html">Sistema reproductor femenino</group>
+<group language="English" id="43" url="https://medlineplus.gov/malereproductivesystem.html">Male Reproductive System</group>
+<group language="Spanish" id="43" url="https://medlineplus.gov/spanish/malereproductivesystem.html">Sistema reproductor masculino</group>
+<group language="English" id="44" url="https://medlineplus.gov/disasters.html">Disasters</group>
+<group language="Spanish" id="44" url="https://medlineplus.gov/spanish/disasters.html">Desastres</group>
+<group language="English" id="45" url="https://medlineplus.gov/diabetesmellitus.html">Diabetes Mellitus</group>
+<group language="Spanish" id="45" url="https://medlineplus.gov/spanish/diabetesmellitus.html">Diabetes mellitus</group>
+</health-topic-groups>

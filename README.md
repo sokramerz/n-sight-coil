@@ -6,7 +6,7 @@ CIS 4914 Senior Project, University of Florida. Advisor: Dr. Mei Liu.
 > **About this copy.** A snapshot of the project shared with our COIL partner
 > team for course review. It contains no hospital data and no history. The app
 > runs on six fictional patients (see "Run both on the fictional patients").
-> Shared for review only; not licensed for other use.
+> Shared for review ONLY.
 
 ## What this does
 
